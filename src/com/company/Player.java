@@ -3,7 +3,7 @@ package com.company;
 
 
 
-public class Player {
+public class Player  {
 private int Health;
 private int Damage;
 
@@ -18,7 +18,11 @@ public Player(int Health,int Damage,String Ability[]){
 
  }
 
-     public int getHealth() {
+    public Player() {
+
+    }
+
+    public int getHealth() {
         return Health;
     }
 
